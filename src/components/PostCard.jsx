@@ -8,7 +8,7 @@ export default function PostCard({ post, clickable = true, showAuthor = true }) 
   const avatarInitial = userName?.charAt(0)?.toUpperCase() || "?";
 
   return (
-    <div className="p-4 border border-gray-200 rounded-lg shadow-sm bg-white hover:shadow-md transition duration-200">
+    <div className="p-4 border border-gray-200 rounded-lg shadow-sm bg-white hover:shadow-md transition duration-200 mt-2">
       {/* Author Info (optional) */}
       {showAuthor && (
         <div className="flex items-center justify-between mb-2">
