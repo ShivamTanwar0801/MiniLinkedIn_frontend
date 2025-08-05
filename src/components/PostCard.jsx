@@ -33,7 +33,7 @@ export default function PostCard({ post, clickable = true, showAuthor = true }) 
       )}
 
       {/* Post Text */}
-      <p className="text-gray-700 mb-2">{post.text}</p>
+      <p className="text-gray-700 mb-2 break-words">{post.text}</p>
 
       {/* Post Date (always visible) */}
       <div className="text-right text-xs text-gray-400">
